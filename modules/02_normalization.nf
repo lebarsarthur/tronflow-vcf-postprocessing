@@ -44,7 +44,7 @@ process VT_DECOMPOSE_COMPLEX {
 
     script:
     """
-    vt decompose_blocksub -a -p ${vcf} > ${name}.decomposed.vcf
+    vt decompose_blocksub -a ${vcf} > ${name}.decomposed.vcf
     """
 }
 
